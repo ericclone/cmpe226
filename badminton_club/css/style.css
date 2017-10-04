@@ -1,0 +1,116 @@
+#about {
+    padding-top: 30px;
+    margin-top: -50px;
+}
+
+body {
+  font-family: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.user-pic {
+
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.club-pic {
+  max-width: 150px;
+  margin-right: 20px;
+}
+
+footer {
+  height: 15px;
+}
+
+.club-item {
+    box-shadow: rgb(191, 191, 191) 0px 1px 2px;
+    color: grey;
+    font-size: 16px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.court-pic {
+  max-width: 80px;
+}
+
+
+
+
+.nav-tabs li a {
+  font-size: 20px;
+  width: 200px;
+}
+
+.tab-content {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-top: transparent;
+  border-radius: 4px;
+
+}
+
+
+td.details-control {
+    background: url('../images/icon-arrow-right.png') no-repeat center center;
+    background-size: 18px 18px;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../images/icon-arrow-down.png') no-repeat center center;
+    background-size: 18px 18px;
+}
+
+
+.data-table {
+  margin-top: 20px;
+}
+
+#form1, #form12 {
+  padding: 10px 0;
+  font-size: 18px;
+  font-family: Helvetica, Arial;
+}
+
+
+.form-inline .form-group {
+  padding-right: 20px;
+  margin: 10px 0;
+}
+
+#form1 select, #form12 select {
+  width: 150px;
+}
+
+.data-table {
+  font-size: 16px;
+}
+
+.navbar-brand .logo {
+  position: relative;
+  top: -5px;
+  margin-right: 15px;
+  max-width: 30px;
+  float: left;
+}
+
+.img-circle.img-responsive.img-center {
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.user-form {
+  font-size: 18px;
+}
